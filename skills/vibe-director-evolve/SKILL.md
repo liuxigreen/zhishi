@@ -49,3 +49,5 @@ CRITIQUE 模板要点：`日期 · slug · 现象一句 · 定位阶段 · 通�
 EVOLVE-LOG：`日期 · slug · 卡X · mute_ok · cover_ok · fill_ok · look_ok · leap画面一句 · Fail|Hold|Pass · skill写回?`
 
 他审 Pass 后走 **`docs/DELIVER.md`**（Desktop 英文暂存 → `D:\Vibe知识大赏-试做\…`）。
+
+- Template packs are a base to polish, not a dump: characters, props, and scene animation must be refined beyond the stock forms (Adelaide 2026-11-03 open-book critique).
