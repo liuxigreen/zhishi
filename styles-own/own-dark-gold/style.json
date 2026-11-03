@@ -1,0 +1,19 @@
+{
+ "slug": "own-dark-gold",
+ "num": "O1",
+ "en": "Dark Gold Line",
+ "cn": "暗金线描",
+ "category_en": "Own · Psychology on a dark stage",
+ "category_cn": "自有 · 暗场心理学",
+ "film": "Why the familiar looks better",
+ "line": "A black stage, one warm light; faceless real-proportion people and ordinary objects turn gold when the mind overvalues them.",
+ "line_cn": "黑舞台一束暖光；真比例的侧影人物和普通物件，被大脑高估时就变成金色。",
+ "uses": ["Psychology explainers", "Cognitive biases", "Relationship topics"],
+ "frame_sec": 4.5,
+ "dur": 24.0,
+ "based_on": "lemo canvas2d page contract",
+ "borrows": ["halo (叁号暗房) stage & bust", "moyou-darkgold bars", "ember-craving clock", "xiaomo-disarm chat bubbles"],
+ "library_version": "lemo-opuscar (local)",
+ "created": "2026-11-03",
+ "by": {"name": "Adelaide Milne / Vibe知识大赏"}
+}

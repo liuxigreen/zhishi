@@ -1,0 +1,15 @@
+{
+  "id": "printed-long-take",
+  "name": "印刷长镜头 stub",
+  "palette": [
+    "ink",
+    "paper",
+    "one red"
+  ],
+  "light": "optional warm wash",
+  "material": "scrape engraving grayscale",
+  "caption": "carved into world",
+  "visual7_targets": "3+ layers every frame; one-take",
+  "engine": "stub",
+  "ban_default": "flat grey bed + emissive caption-only + stick figures"
+}

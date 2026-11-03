@@ -1,0 +1,15 @@
+{
+  "id": "V",
+  "name": "V · 虚空信息",
+  "palette": [
+    "near-black",
+    "single amber/gold info",
+    "cool secondary sparingly"
+  ],
+  "light": "single key on hero; no full-frame emissive UI",
+  "material": "grain σ medium; metal/glass accents",
+  "caption": "ink outline on dark; vermilion emphasis only",
+  "visual7_targets": "hero mass required; layers≥2 fog; emissive_ui_frac low",
+  "engine": "stub",
+  "ban_default": "flat grey bed + emissive caption-only + stick figures"
+}

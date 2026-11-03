@@ -1,0 +1,14 @@
+{
+  "id": "S",
+  "name": "S · 物态",
+  "palette": [
+    "paper/wood/plastic local",
+    "one accent = rule"
+  ],
+  "light": "hard or soft keyed to object",
+  "material": "readable volume; contact shadow on",
+  "caption": "labels on objects / ground",
+  "visual7_targets": "mass_diag≥; mid_void low; camera soft or locked iso",
+  "engine": "stub",
+  "ban_default": "flat grey bed + emissive caption-only + stick figures"
+}

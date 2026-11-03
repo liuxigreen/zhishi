@@ -1,0 +1,19 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'NSans';src:url(/core/fonts/NotoSansSC-VF.ttf)}
+@font-face{font-family:'NSerif';src:url(/core/fonts/NotoSerifSC-VF.otf)}
+@font-face{font-family:'Brush';src:url(/core/fonts/MaShanZheng.ttf)}
+@font-face{font-family:'XiaoWei';src:url(/core/fonts/ZCOOLXiaoWei.ttf)}
+html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+const q=new URLSearchParams(location.search);
+const preset=q.get('preset'); const t=+(q.get('t')||0);
+await Promise.all(['NSans','NSerif','Brush','XiaoWei'].map(f=>document.fonts.load(`40px ${f}`,'道歉对不起堵车')));
+try{
+  const m=await import(`/presets/${preset}/scene.js`);
+  const c=document.getElementById('c');
+  await m.render(c,{W:1080,H:1920,t,seed:+(q.get('seed')||7),beat:q.get('beat')||'hook'});
+  window.__done='ok';
+}catch(e){console.error(e);window.__done='err:'+e.stack}
+</script></body></html>

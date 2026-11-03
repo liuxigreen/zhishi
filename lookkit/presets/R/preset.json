@@ -1,0 +1,14 @@
+{
+  "id": "R",
+  "name": "R · 其它·节奏装置",
+  "palette": [
+    "per-device",
+    "one pointing hue"
+  ],
+  "light": "device-driven (clock/screen/sodium)",
+  "material": "UI as set dressing not floating cards",
+  "caption": "device-native plates",
+  "visual7_targets": "layout-as-edit or multi-world path; declare BAN",
+  "engine": "stub",
+  "ban_default": "flat grey bed + emissive caption-only + stick figures"
+}

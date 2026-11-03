@@ -1,0 +1,15 @@
+{
+  "id": "desktop-flythrough",
+  "name": "桌面穿梭 stub",
+  "palette": [
+    "dot paper",
+    "cobalt accent #2F5BFF",
+    "ink #171C2E"
+  ],
+  "light": "low warm sun long shadows",
+  "material": "thick paper cards + voxel toys",
+  "caption": "bottom plate; pills cobalt",
+  "visual7_targets": "one-take desktop; sticker pop; 110–130 BPM feel",
+  "engine": "stub",
+  "ban_default": "flat grey bed + emissive caption-only + stick figures"
+}

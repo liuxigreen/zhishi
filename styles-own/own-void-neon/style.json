@@ -1,0 +1,19 @@
+{
+ "slug": "own-void-neon",
+ "num": "O2",
+ "en": "Void Neon",
+ "cn": "虚空霓虹",
+ "category_en": "Own · Info / probability in a neon void",
+ "category_cn": "自有 · 虚空里的信息与概率",
+ "film": "Why it suddenly clicks",
+ "line": "A deep-purple void, self-lit wire props and peg/particle people; the idea that connects lights magenta.",
+ "line_cn": "深紫虚空、自发光线框道具、棋子/粒子人；连上的那条线会亮成品红。",
+ "uses": ["Information theory", "Probability", "Learning / insight explainers", "Biology particle metaphors"],
+ "frame_sec": 4.5,
+ "dur": 24.0,
+ "based_on": "lemo canvas2d page contract",
+ "borrows": ["5155 purple void + neon monitor", "0345 number-scale + orb", "3785 probability wheel / tree", "9472 particle silhouette", "7098 peg people"],
+ "library_version": "lemo-opuscar (local)",
+ "created": "2026-11-03",
+ "by": {"name": "Adelaide Milne / Vibe知识大赏"}
+}

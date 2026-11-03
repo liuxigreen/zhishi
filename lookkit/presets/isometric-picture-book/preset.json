@@ -1,0 +1,15 @@
+{
+  "id": "isometric-picture-book",
+  "name": "等距绘本 stub",
+  "palette": [
+    "warm paper ground",
+    "one rule accent",
+    "ink #2A2E29"
+  ],
+  "light": "hard purple-ish shade ok",
+  "material": "flat three-tone blocks",
+  "caption": "type on ground",
+  "visual7_targets": "iso lock; lid-off; no faces",
+  "engine": "stub",
+  "ban_default": "flat grey bed + emissive caption-only + stick figures"
+}

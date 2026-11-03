@@ -1,0 +1,14 @@
+{
+  "id": "memphis-diorama",
+  "name": "孟菲斯微缩 stub",
+  "palette": [
+    "5–7 saturated + pastel",
+    "ink #25214A"
+  ],
+  "light": "hard purple shadow; no bloom",
+  "material": "flat shaded 2.5D",
+  "caption": "in-frame labels sparingly",
+  "visual7_targets": "high 3/4; season wave; no perspective people drama",
+  "engine": "stub",
+  "ban_default": "flat grey bed + emissive caption-only + stick figures"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "own-academy-spot",
+  "num": "O10",
+  "en": "Academy Spot",
+  "cn": "暗室聚光",
+  "cat": "自有 · 暗室学习科学",
+  "cat_en": "Own · Learning science in a darkroom spotlight",
+  "film": "Ask one layer deeper",
+  "line": "A warm-charcoal darkroom; top-light cones; blue novice and gold expert as color-block pegs; solid props for the surface, blueprint dashed lines for deep structure.",
+  "line_cn": "暖炭暗室、顶光锥；蓝色新手与金色专家是色块 peg；实心道具=表面，虚线蓝图=深层结构。",
+  "sources": ["zhongshan-learn"],
+  "dur": 24.0,
+  "frame_sec": 4.5,
+  "status": "done",
+  "palette": {
+    "void": "#0C0B0A",
+    "voidMid": "#1A1816",
+    "gold": "#E5C07B",
+    "goldHot": "#F5D89A",
+    "blue": "#A8C4D8",
+    "blueprint": "#7EB8C9",
+    "red": "#D8634F",
+    "tan": "#C4A882",
+    "cream": "#EDE6D6"
+  },
+  "props": [
+    "windupDog", "windupKey", "blueprintDog", "spring", "gear",
+    "questionOrbit", "calloutCard", "speechBubble", "concentricRings", "balanceScale",
+    "shallowBlock", "whyRing", "zipper", "barCompare", "spiralSteps",
+    "decisionWheel", "books", "knowledgeGraph", "gapGraph", "labelTag",
+    "pedestal", "pencilPaper"
+  ],
+  "native_moves": ["blueprintMorph", "questionOrbit", "qualityScale", "ringClimb"],
+  "uses": [
+    "Learning science / explanatory depth",
+    "Expert vs novice questions",
+    "Surface vs principle",
+    "Quality of inquiry"
+  ],
+  "people": ["peg novice (blue)", "peg expert (gold)", "tinyPeg"],
+  "improvement": "blueprintMorph: continuous solid→dashed dissolve with glow migration (source hard-cuts between solid dog and schema)",
+  "created": "2026-11-03",
+  "by": { "name": "Adelaide Milne / Vibe知识大赏" }
+}

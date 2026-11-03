@@ -1,0 +1,95 @@
+{
+ "id": "own-tao-ink",
+ "num": "O6",
+ "en": "Tao Ink",
+ "cn": "道卷水墨",
+ "cat": "自有 · 国学/哲理竖屏水墨",
+ "cat_en": "Own · Chinese classics explained, ink scroll",
+ "film": "庖丁解牛 · 顺着缝走",
+ "line": "Vertical rice-paper scroll: one ink stick figure, a big brush character or red seal, one plain sentence; night = the hard way, paper = the Tao.",
+ "line_cn": "米色宣纸竖屏：一个墨棍人、一个大毛笔字或红印、一句白话；夜色=蛮干，纸色=顺道。",
+ "sources": [
+  "4550"
+ ],
+ "dur": 24.0,
+ "frame_sec": 4.5,
+ "status": "done",
+ "size": "1080x1920",
+ "palette": {
+  "paper": "#E4DDCD",
+  "ink": "#1D1B16",
+  "inkSoft": "#4A443A",
+  "grey": "#9C968A",
+  "red": "#AB2229",
+  "pine": "#54674B",
+  "pineLite": "#7E8F6E",
+  "water": "#C6CABC",
+  "night": "#0F0E0C",
+  "cream": "#EDE6D6",
+  "digit": "#D8322F"
+ },
+ "fonts": [
+  "Noto Serif SC 800 (captions)",
+  "MaShanZheng (brush)"
+ ],
+ "props": [
+  "brushChar",
+  "seal",
+  "splatter",
+  "inkMountains",
+  "pine",
+  "crookedTree",
+  "redSun",
+  "water",
+  "glassCup",
+  "cleaver",
+  "ox",
+  "block",
+  "chips",
+  "stump",
+  "boat",
+  "yinYang",
+  "redDigits",
+  "vertColumn",
+  "dashedPath",
+  "moon",
+  "sheep",
+  "ruler",
+  "sandStream",
+  "inkBloom",
+  "reeds"
+ ],
+ "patterns": [
+  "bloomWipe",
+  "brushWrite",
+  "sealStamp",
+  "splatBurst",
+  "settle",
+  "pathFollow",
+  "poseBlend",
+  "counterFlip",
+  "sway",
+  "captionIn",
+  "gleam"
+ ],
+ "native_moves": [
+  "夜里蛮干",
+  "大字落纸",
+  "红线顺缝",
+  "举物端详"
+ ],
+ "uses": [
+  "Chinese classics (庄子/老子/孙子)",
+  "Burnout / 内卷",
+  "Life philosophy",
+  "Habits / doing less"
+ ],
+ "bans": [
+  "faces on figures",
+  "gold/neon",
+  "more than one red per frame",
+  "camera zoom",
+  "hard cuts without bloom"
+ ],
+ "improvement": "Ink-bloom transitions + brush write-on + moving scenes (source hard-cuts static boards); knife follows the red gap path."
+}

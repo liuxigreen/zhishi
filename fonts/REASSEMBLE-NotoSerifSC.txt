@@ -1,0 +1,6 @@
+If you installed from CloudAgent chunk zips, NotoSerifSC-VF.otf may arrive as:
+  NotoSerifSC-VF.otf.chunk01
+  NotoSerifSC-VF.otf.chunk02
+Reassemble from fonts/:
+  cat NotoSerifSC-VF.otf.chunk01 NotoSerifSC-VF.otf.chunk02 > NotoSerifSC-VF.otf
+  rm -f NotoSerifSC-VF.otf.chunk*

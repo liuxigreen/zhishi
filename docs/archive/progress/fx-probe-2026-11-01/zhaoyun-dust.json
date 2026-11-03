@@ -1,0 +1,42 @@
+{
+  "dust-197-203": {
+    "n": 420,
+    "med_d": 3.57,
+    "p90": 6.86,
+    "spd1080": 9.02,
+    "vig": 0.5113,
+    "mid": "/workspace/vk-distill/bases/lailong-zhaoyun-infant/fx/stills/dust-197-203/f0091.png"
+  },
+  "dust-163-169": {
+    "n": 112,
+    "med_d": 3.39,
+    "p90": 5.29,
+    "spd1080": 18.07,
+    "vig": 0.4575,
+    "mid": "/workspace/vk-distill/bases/lailong-zhaoyun-infant/fx/stills/dust-163-169/f0091.png"
+  },
+  "dust-009-015": {
+    "n": 32,
+    "med_d": 3.57,
+    "p90": 7.94,
+    "spd1080": 13.59,
+    "vig": 0.1989,
+    "mid": "/workspace/vk-distill/bases/lailong-zhaoyun-infant/fx/stills/dust-009-015/f0091.png"
+  },
+  "dust-071-077": {
+    "n": 368,
+    "med_d": 3.74,
+    "p90": 6.61,
+    "spd1080": 11.47,
+    "vig": 0.7198,
+    "mid": "/workspace/vk-distill/bases/lailong-zhaoyun-infant/fx/stills/dust-071-077/f0091.png"
+  },
+  "dust-137-143": {
+    "n": 97,
+    "med_d": 3.39,
+    "p90": 7.32,
+    "spd1080": 8.26,
+    "vig": 0.443,
+    "mid": "/workspace/vk-distill/bases/lailong-zhaoyun-infant/fx/stills/dust-137-143/f0091.png"
+  }
+}

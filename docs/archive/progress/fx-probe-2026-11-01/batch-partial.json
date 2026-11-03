@@ -1,0 +1,50 @@
+{
+  "lailong_flame": {
+    "wh": [
+      1024,
+      576
+    ],
+    "scale": 1.875,
+    "flame_center": [
+      248,
+      258
+    ],
+    "ember_count": 80,
+    "smoke_grow_ms": 400.0,
+    "vignette": [
+      0.3796,
+      17.6,
+      6.68
+    ],
+    "flame_breathe_amp_pct": 18.7,
+    "flame_period_ms": 633.3
+  },
+  "xiaomo": {
+    "vignette_dens": [
+      0.1228,
+      35.28,
+      4.33
+    ],
+    "glow_r_15pct": null,
+    "dust_n": 42,
+    "breathe_amp_pct": 50.81,
+    "breathe_period_ms": null
+  },
+  "moyou": {
+    "vignette_mid": [
+      0.1652,
+      36.4,
+      6.01
+    ],
+    "n_frames": 1198
+  },
+  "nexo": {
+    "vignette": [
+      0.1395,
+      57.59,
+      8.03
+    ],
+    "bracket_20_80_ms": 0.0,
+    "bracket_peak_score": 7215
+  }
+}

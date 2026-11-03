@@ -1,0 +1,78 @@
+{
+  "id": "own-speed-seq",
+  "num": "O9",
+  "en": "Speed Seq",
+  "cn": "节拍序列",
+  "cat": "自有 · 节拍/曲风可视化",
+  "cat_en": "Own · Rhythm / genre as sequencer",
+  "film": "The good note sits in the gap",
+  "line": "A beige paper board (or dark stage) with a persistent bottom sequencer; wooden-puppet people and music props; the playhead is the argument.",
+  "line_cn": "米色纸板（或暗场舞台）+ 底部常驻节拍器；木偶人和音乐道具；播放头本身就是论点。",
+  "sources": [
+    "0594-speedrun"
+  ],
+  "dur": 24.0,
+  "frame_sec": 4.5,
+  "status": "done",
+  "palette": {
+    "paper": "#EDE7DA",
+    "ink": "#1A1714",
+    "accent": "#E85A2A",
+    "gold": "#E8C56A",
+    "stage": "#1A1016",
+    "plum": "#2D1B33",
+    "burgundy": "#2A0A16",
+    "skin": "#E8C9A8",
+    "candy": [
+      "#E85A8A",
+      "#5AC8E8",
+      "#F0C040",
+      "#F07830",
+      "#7A4AB0"
+    ]
+  },
+  "props": [
+    "sequencer",
+    "metronome",
+    "bpmNum",
+    "discoBall",
+    "discoFloor",
+    "spotlight",
+    "turntable",
+    "domeLamp",
+    "guitar",
+    "kickDrum",
+    "chandelier",
+    "sofa",
+    "rainbow",
+    "archWindows",
+    "star",
+    "gapBracket",
+    "lavaLamp",
+    "chip",
+    "chapterNum",
+    "captionBlock"
+  ],
+  "native_moves": [
+    "playheadTravel",
+    "beatHit",
+    "metroSwing",
+    "gapBracket"
+  ],
+  "uses": [
+    "Tempo / BPM explainers",
+    "Time signature / waltz vs 4/4",
+    "Syncopation / groove",
+    "Genre feel (disco, lo-fi, funk)"
+  ],
+  "people": [
+    "wooden puppet (featureless head + joint circles + costume blocks)",
+    "crowdRow extras"
+  ],
+  "improvement": "continuous playhead across genres + beatFlash on puppet joints + gapBracket naming syncopation",
+  "created": "2026-11-03",
+  "by": {
+    "name": "Adelaide Milne / Vibe知识大赏"
+  },
+  "size": "1920x1080"
+}

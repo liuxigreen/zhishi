@@ -1,0 +1,80 @@
+{
+  "id": "_shared-base",
+  "name": "Vibe 自蒸统一模板底座",
+  "version": "1",
+  "updated": "2026-11-03",
+  "purpose": "Every own look = shared-base + overrides. Prevents flat grey UI drift.",
+  "canvas_default": { "w": 1920, "h": 1080, "fps": 30 },
+  "multi_world": {
+    "min_worlds": 20,
+    "duration_s": [120, 150],
+    "camera": "one continuous travel; story drives world changes",
+    "story_bed_people": "open + once mid + close only",
+    "muted_2s_test": true,
+    "cause_and_effect_in_frame": true
+  },
+  "visual7_defaults": {
+    "V1_mass": {
+      "mid_fill": "half_or_full",
+      "mid_void_frac_max_non_V": 0.45,
+      "note": "V册虚空合法时必须 hero 体量+grain+层数"
+    },
+    "V2_depth": {
+      "layers_min": 3,
+      "fog": true,
+      "parallax": true
+    },
+    "V3_volume": {
+      "mass_diag_intent": "ge_half_screen_hero",
+      "contact_shadow": true,
+      "ban": ["stick_capsule_people", "hairline_map_as_mass"]
+    },
+    "V4_material": {
+      "flat_fill_bg_ban": true,
+      "grain": true,
+      "require_named_material": ["paper", "ink", "wood", "stone", "metal", "fabric", "wet_asphalt", "pcb", "slate"]
+    },
+    "V5_light": {
+      "key_light_required": true,
+      "emissive_ui_default": false,
+      "emissive_whitelist_only": true,
+      "ban": ["only_glowing_captions", "object_with_no_lit_side"]
+    },
+    "V6_occlusion": {
+      "fg_layer": true,
+      "ban": ["all_same_depth_row"]
+    },
+    "V7_camera": {
+      "hold_warn_s": 3,
+      "transitions": ["soft", "sparse", "dense", "stack"],
+      "multi_world_default": "soft_or_path_travel"
+    }
+  },
+  "caption_defaults": {
+    "contrast_min": 4.5,
+    "prefer": 5.0,
+    "font_family": "Noto Serif SC",
+    "main_px": 66,
+    "sub_px": 34,
+    "one_font": true,
+    "plain_read_test": "who does what and what it costs",
+    "band_or_outline": "required_for_contrast",
+    "emphasis_hue_max": 1
+  },
+  "global_BAN": [
+    "flat grey / #07080C bed with colour-block people",
+    "GenerateVideo or generative video as bed",
+    "paper-puppet shell",
+    "caption-only glowing strip as the whole frame",
+    "no REF-LOCK before film.js",
+    "copying Lemo DEMO.md story as STRUCTURE",
+    "cross-册 hook without written reason"
+  ],
+  "modules_expected": [
+    "stage", "light", "material", "figure", "prop", "camera", "text", "readout", "palette", "sim", "debug"
+  ],
+  "engines_ready": {
+    "P-ink-land-prod": "lookkit/presets/style-ink-land-v3",
+    "R-noir-land-prod": "lookkit/presets/style-noir-land-v1"
+  }
+}
