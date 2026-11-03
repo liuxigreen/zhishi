@@ -21,6 +21,7 @@ description: >-
 4 **换题救命**但镜头仍是示意壳 → 同 Fail  
 5 会划走吗 / 看完记得哪个画面？答不出具体画面 → Fail  
 6 **锁风人物/道具**：own 不像该包 §12/§13；lemo 被稀释成只抄色值；或出现旁白口播 → Fail
+7 **打磨**：人/主道具仍像未打磨模板默认形，或场景动画静贴硬切 → Fail
 
 ## Before densest
 - [ ] CRAFT-ESSENCE+同号卡
@@ -50,4 +51,9 @@ EVOLVE-LOG：`日期 · slug · 卡X · mute_ok · cover_ok · fill_ok · look_o
 
 他审 Pass 后走 **`docs/DELIVER.md`**（Desktop 英文暂存 → `D:\Vibe知识大赏-试做\…`）。
 
-- Template packs are a base to polish, not a dump: characters, props, and scene animation must be refined beyond the stock forms (Adelaide 2026-11-03 open-book critique).
+## Locked lessons
+- 一镜到底≠单场景：镜头须被剧情推着穿越多世界（2026-11-02 批准）。
+- 字幕不得融进背景；字在画面里跟剧情排版，禁底部一排（2026-11-03）。
+- 比喻世界须双方同框且结果可见（「他擦亮的是自己的像」失败）。
+- 模板是底座不是成品：人/道具/场景动画须在抄锚上打磨，禁 dump 默认形（开卷考 2026-11-03）。
+- 禁盲目执行指令或自标 Pass；先找根因。
