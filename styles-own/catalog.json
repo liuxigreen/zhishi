@@ -1,0 +1,332 @@
+[
+  {
+    "slug": "own-dark-gold",
+    "num": "O1",
+    "en": "Dark Gold Line",
+    "cn": "暗金线描",
+    "cat": "自有 · 暗场心理学",
+    "cat_en": "Own · Psychology on a dark stage",
+    "film": "Why the familiar looks better",
+    "line": "A black stage, one warm light; faceless real-proportion people and ordinary objects turn gold when the mind overvalues them.",
+    "line_cn": "黑舞台一束暖光；真比例的侧影人物和普通物件，被大脑高估时就变成金色。",
+    "uses": [
+      "Psychology explainers",
+      "Cognitive biases",
+      "Relationship topics"
+    ],
+    "dur": 24.0,
+    "frame_sec": 4.5,
+    "status": "done",
+    "sources": [
+      "halo",
+      "moyou-darkgold",
+      "ember-craving",
+      "xiaomo-disarm",
+      "moyou-percolation"
+    ],
+    "path": "styles-own/own-dark-gold"
+  },
+  {
+    "slug": "own-void-neon",
+    "cn": "虚空霓虹",
+    "status": "done",
+    "sources": [
+      "5155",
+      "0345",
+      "3785",
+      "9472",
+      "1643",
+      "7098",
+      "0490",
+      "6810",
+      "8134",
+      "1521"
+    ],
+    "num": "O2",
+    "en": "Void Neon",
+    "cat": "自有 · 虚空信息/概率",
+    "cat_en": "Own · Info / probability in a neon void",
+    "film": "Why it suddenly clicks",
+    "line": "A deep-purple void, self-lit wire props and peg/particle people; the idea that connects lights magenta.",
+    "line_cn": "深紫虚空、自发光线框道具、棋子/粒子人；连上的那条线会亮成品红。",
+    "uses": [
+      "Information theory",
+      "Probability",
+      "Learning / insight",
+      "Biology particle metaphors"
+    ],
+    "dur": 24.0,
+    "frame_sec": 4.5,
+    "path": "styles-own/own-void-neon"
+  },
+  {
+    "slug": "own-lailong-sil",
+    "cn": "来龙剪影史",
+    "status": "done",
+    "sources": [
+      "5918",
+      "5364",
+      "2217",
+      "3678",
+      "zhaoyun",
+      "xuanzang"
+    ],
+    "num": "O3",
+    "en": "Lailong Silhouette History",
+    "cat": "自有 · 纸偶制度史",
+    "cat_en": "Own · History as paper-puppet institutions",
+    "film": "Absence is also a message",
+    "line": "A warm-brown night stage; cream paper-puppets and institution props; fire-gold for presence, mark-red for the signal that did not come.",
+    "line_cn": "暖褐夜场、米色纸偶、制度道具；火金表示在场，绛红表示缺席的信号。",
+    "uses": [
+      "History explainers",
+      "Institutions / signal systems",
+      "Textbook vs novel",
+      "Paperwork / seals / passports"
+    ],
+    "dur": 24.0,
+    "frame_sec": 4.5,
+    "path": "styles-own/own-lailong-sil"
+  },
+  {
+    "slug": "own-bite-red",
+    "cn": "比特红皇后",
+    "status": "parked",
+    "sources": [
+      "redqueen",
+      "0762"
+    ],
+    "num": "O4",
+    "en": "Bite Red Queen",
+    "cat": "自有 · 相对适应/军备竞赛",
+    "cat_en": "Own · Relative adaptation / arms race",
+    "film": "The gap stays locked",
+    "line": "Near-black stage, semantic red for effort-that-goes-nowhere; stick runners and race gadgets; white serif tells the rule, red marks the trap.",
+    "line_cn": "近黑舞台、语义红标「拼尽全力仍原地」；象形跑步人与竞赛器械；白字讲规则，红字钉陷阱。",
+    "uses": [
+      "Relative adaptation",
+      "Arms-race metaphors",
+      "Credential inflation",
+      "Entropy / work vs decay"
+    ],
+    "dur": 24.0,
+    "frame_sec": 4.5,
+    "path": "styles-own/own-bite-red",
+    "note": "放弃：人物达不到原片，暂停（2026-11-03）"
+  },
+  {
+    "slug": "own-emotion-ui",
+    "cn": "情绪 UI",
+    "status": "done",
+    "sources": [
+      "nexo",
+      "6571",
+      "6911",
+      "1183 (donor)",
+      "2127 (donor)"
+    ],
+    "cat": "自有 · 情绪/社交心理 UI",
+    "cat_en": "Own · Attachment / emotion as UI",
+    "film": "You're less noticed than you think",
+    "line": "A deep-navy night room; a warm capsule person under a light with UI drawn on top of life — eyes, gaze lines, brackets, a tension bar, thought clouds; orange is the self, cyan is screens and facts.",
+    "line_cn": "深蓝夜间房间；暖橙胶囊人站在光下，生活上叠一层界面——眼睛、视线虚线、对焦框、紧张条、思绪云；橙=自己，青=屏幕和事实。",
+    "uses": [
+      "Social psychology",
+      "Attachment / anxiety",
+      "Self-focus / rumination",
+      "Belief vs fact experiments"
+    ],
+    "palette": {
+      "void": "#080C16",
+      "navy": "#111A2E",
+      "hero": "#F2A866",
+      "orange": "#FF9A3C",
+      "cyan": "#7ABAEF",
+      "crowd": "#7F89A3",
+      "cream": "#EEEAE0",
+      "lamp": "#FFE7B0",
+      "tense": "#E58A7A",
+      "calm": "#5FC4A8",
+      "coral": "#EE7D62",
+      "denim": "#7F9FD8"
+    },
+    "dur": 24.0,
+    "frame_sec": 4.5,
+    "num": "O5",
+    "en": "Emotion UI",
+    "path": "styles-own/own-emotion-ui"
+  },
+  {
+    "slug": "own-tao-ink",
+    "cn": "道卷水墨",
+    "status": "done",
+    "sources": [
+      "4550"
+    ],
+    "cat": "自有 · 国学/哲理竖屏水墨",
+    "cat_en": "Own · Chinese classics explained, ink scroll",
+    "film": "庖丁解牛 · 顺着缝走",
+    "line": "Vertical rice-paper scroll: one ink stick figure, a big brush character or red seal, one plain sentence; night = the hard way, paper = the Tao.",
+    "line_cn": "米色宣纸竖屏：一个墨棍人、一个大毛笔字或红印、一句白话；夜色=蛮干，纸色=顺道。",
+    "uses": [
+      "Chinese classics (庄子/老子/孙子)",
+      "Burnout / 内卷",
+      "Life philosophy",
+      "Habits / doing less"
+    ],
+    "palette": {
+      "paper": "#E4DDCD",
+      "ink": "#1D1B16",
+      "inkSoft": "#4A443A",
+      "grey": "#9C968A",
+      "red": "#AB2229",
+      "pine": "#54674B",
+      "pineLite": "#7E8F6E",
+      "water": "#C6CABC",
+      "night": "#0F0E0C",
+      "cream": "#EDE6D6",
+      "digit": "#D8322F"
+    },
+    "dur": 24.0,
+    "frame_sec": 4.5,
+    "num": "O6",
+    "en": "Tao Ink",
+    "path": "styles-own/own-tao-ink"
+  },
+  {
+    "slug": "own-egypt-papyrus",
+    "cn": "莎草图",
+    "status": "done",
+    "sources": [
+      "4352"
+    ],
+    "cat": "自有 · 历史/神话横屏埃及壁画",
+    "cat_en": "Own · history/myth explainer, Egyptian tomb painting",
+    "film": "史上第一次罢工",
+    "line": "Flat Egyptian-canon figures on parchment, navy frame bands with a winged sun, a cream two-line caption card; papyrus-unroll transitions.",
+    "line_cn": "羊皮纸上的埃及正典平涂人物，上下藏青饰带+有翼日盘，奶油色两行字幕卡；纸草卷展开转场。",
+    "uses": [
+      "Ancient history firsts",
+      "Egyptian/near-east myth",
+      "Economics told as history",
+      "Work/labour stories"
+    ],
+    "palette": {
+      "parch": "#E2D1A8",
+      "parchDark": "#B9A887",
+      "navy": "#1C273E",
+      "gold": "#D9A640",
+      "cream": "#F1E6C8",
+      "line": "#2A1A12",
+      "skinM": "#8E3B2A",
+      "skinF": "#D5A458",
+      "linen": "#EFE6D0",
+      "blue": "#2F5C9E",
+      "turq": "#3E9A8C",
+      "red": "#B8392B",
+      "nile": "#2A4F86",
+      "grass": "#839D60",
+      "hiRed": "#A82A1F",
+      "hiBlue": "#24529A",
+      "hiGreen": "#256B42"
+    },
+    "dur": 24.0,
+    "frame_sec": 3.2,
+    "num": "O7",
+    "en": "Papyrus Egypt",
+    "path": "styles-own/own-egypt-papyrus",
+    "size": "1440x1080"
+  },
+  {
+    "slug": "own-murphy-panel",
+    "cn": "墨菲暖板",
+    "en": "Murphy Warm Panel",
+    "num": "O8",
+    "status": "done",
+    "sources": [
+      "4630"
+    ],
+    "film": "生日悖论",
+    "size": "1920x1080",
+    "path": "styles-own/own-murphy-panel",
+    "improvement": "one number drives HUD+counter+lines+gauge; rack focus; lightsDip world changes"
+  },
+  {
+    "slug": "own-speed-seq",
+    "cn": "节拍序列",
+    "status": "done",
+    "sources": [
+      "0594-speedrun"
+    ],
+    "en": "Speed Seq",
+    "num": "O9",
+    "cat": "自有 · 节拍/曲风可视化",
+    "cat_en": "Own · Rhythm / genre as sequencer",
+    "film": "The good note sits in the gap",
+    "line": "A beige paper board (or dark stage) with a persistent bottom sequencer; wooden-puppet people and music props; the playhead is the argument.",
+    "line_cn": "米色纸板（或暗场舞台）+ 底部常驻节拍器；木偶人和音乐道具；播放头本身就是论点。",
+    "uses": [
+      "Tempo / BPM explainers",
+      "Time signature / waltz vs 4/4",
+      "Syncopation / groove",
+      "Genre feel (disco, lo-fi, funk)"
+    ],
+    "palette": {
+      "paper": "#EDE7DA",
+      "ink": "#1A1714",
+      "accent": "#E85A2A",
+      "gold": "#E8C56A",
+      "stage": "#1A1016",
+      "plum": "#2D1B33",
+      "burgundy": "#2A0A16",
+      "skin": "#E8C9A8",
+      "candy": [
+        "#E85A8A",
+        "#5AC8E8",
+        "#F0C040",
+        "#F07830",
+        "#7A4AB0"
+      ]
+    },
+    "dur": 24.0,
+    "frame_sec": 4.5,
+    "path": "styles-own/own-speed-seq",
+    "size": "1920x1080",
+    "improvement": "continuous playhead across genres + beatFlash on puppet joints + gapBracket naming syncopation"
+  },
+  {
+    "slug": "own-academy-spot",
+    "cn": "暗室聚光",
+    "status": "done",
+    "sources": [
+      "zhongshan-learn"
+    ],
+    "cat": "自有 · 暗室学习科学",
+    "cat_en": "Own · Learning science in a darkroom spotlight",
+    "film": "问对一层 · 表面之外",
+    "line": "A warm-charcoal darkroom; top-light cones; blue novice and gold expert as color-block pegs; solid props for the surface, blueprint dashed lines for deep structure.",
+    "line_cn": "暖炭暗室、顶光锥；蓝色新手与金色专家是色块 peg；实心道具=表面，虚线蓝图=深层结构。",
+    "uses": [
+      "Learning science / explanatory depth",
+      "Expert vs novice questions",
+      "Surface vs principle",
+      "Quality of inquiry"
+    ],
+    "palette": {
+      "void": "#0C0B0A",
+      "voidMid": "#1A1816",
+      "gold": "#E5C07B",
+      "goldHot": "#F5D89A",
+      "blue": "#A8C4D8",
+      "blueprint": "#7EB8C9",
+      "red": "#D8634F",
+      "tan": "#C4A882",
+      "cream": "#EDE6D6"
+    },
+    "dur": 24.0,
+    "frame_sec": 4.5,
+    "num": "O10",
+    "en": "Academy Spot",
+    "path": "styles-own/own-academy-spot"
+  }
+]

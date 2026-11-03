@@ -1,0 +1,4 @@
+# Transfer artifacts (do not commit)
+.transfer-incoming/
+zhishi-full.tar.xz.part*
+zhishi-full.tar.xz

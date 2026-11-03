@@ -1,0 +1,19 @@
+{
+ "slug": "own-lailong-sil",
+ "num": "O3",
+ "en": "Lailong Silhouette History",
+ "cn": "来龙剪影史",
+ "category_en": "Own · History as paper-puppet institutions",
+ "category_cn": "自有 · 纸偶制度史",
+ "film": "Absence is also a message",
+ "line": "A warm-brown night stage; cream paper-puppets and institution props; fire-gold for presence, mark-red for the signal that did not come.",
+ "line_cn": "暖褐夜场、米色纸偶、制度道具；火金表示在场，绛红表示缺席的信号。",
+ "uses": ["History explainers", "Institutions / signal systems", "Textbook vs novel", "Paperwork / seals / passports"],
+ "frame_sec": 4.5,
+ "dur": 24.0,
+ "based_on": "lemo canvas2d page contract",
+ "borrows": ["5918 lonely beacon + torch ladder", "zhaoyun CourtLamp puppets", "2217 jade seal glow", "3678 night drum", "xuanzang topo / paperwork"],
+ "library_version": "lemo-opuscar (local)",
+ "created": "2026-11-03",
+ "by": {"name": "Adelaide Milne / Vibe知识大赏"}
+}

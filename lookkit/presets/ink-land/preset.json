@@ -1,0 +1,15 @@
+{
+  "id": "ink-land",
+  "name": "生产水墨横屏",
+  "palette": [
+    "xuan paper",
+    "ink wash",
+    "vermilion emphasis"
+  ],
+  "light": "paper band behind captions; world-local ink light",
+  "material": "ink wash + soft paper caption band",
+  "caption": "Noto Serif SC 66/34; ≥5:1; diagonal wipe",
+  "visual7_targets": "≥20 worlds; muted 2s test; continuous camera",
+  "engine": "stub",
+  "ban_default": "flat grey bed + emissive caption-only + stick figures"
+}

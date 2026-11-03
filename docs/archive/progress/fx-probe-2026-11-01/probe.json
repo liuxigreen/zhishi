@@ -1,0 +1,101 @@
+{
+ "moyou_music": {
+  "dur": 39.9,
+  "speck_median": 170,
+  "speck_p90": 417,
+  "corner_center_ratio": 0.38,
+  "motion_mean": 5.13,
+  "still_frac": 0.02,
+  "cut_like": 5
+ },
+ "xiaomo_disarm": {
+  "dur": 180.3,
+  "speck_median": 254,
+  "speck_p90": 601,
+  "corner_center_ratio": 0.16,
+  "motion_mean": 1.51,
+  "still_frac": 0.37,
+  "cut_like": 0
+ },
+ "nexo_crowd": {
+  "dur": 60.0,
+  "speck_median": 90,
+  "speck_p90": 276,
+  "corner_center_ratio": 0.24,
+  "motion_mean": 2.93,
+  "still_frac": 0.29,
+  "cut_like": 2
+ },
+ "sanhao_halo": {
+  "dur": 161.7,
+  "speck_median": 266,
+  "speck_p90": 491,
+  "corner_center_ratio": 0.32,
+  "motion_mean": 2.33,
+  "still_frac": 0.44,
+  "cut_like": 9
+ },
+ "zhongshan_learn": {
+  "dur": 104.9,
+  "speck_median": 145,
+  "speck_p90": 287,
+  "corner_center_ratio": 0.26,
+  "motion_mean": 4.97,
+  "still_frac": 0.19,
+  "cut_like": 18
+ },
+ "lailong_beacon": {
+  "dur": 233.0,
+  "speck_median": 151,
+  "speck_p90": 383,
+  "corner_center_ratio": 0.55,
+  "motion_mean": 3.61,
+  "still_frac": 0.03,
+  "cut_like": 6
+ },
+ "lailong_xuanzang": {
+  "dur": 194.8,
+  "speck_median": 111,
+  "speck_p90": 383,
+  "corner_center_ratio": 0.53,
+  "motion_mean": 8.01,
+  "still_frac": 0.0,
+  "cut_like": 50
+ },
+ "lailong_zhaoyun": {
+  "dur": 249.2,
+  "speck_median": 100,
+  "speck_p90": 221,
+  "corner_center_ratio": 0.51,
+  "motion_mean": 6.27,
+  "still_frac": 0.0,
+  "cut_like": 43
+ },
+ "andy_building": {
+  "dur": 60.8,
+  "speck_median": 224,
+  "speck_p90": 529,
+  "corner_center_ratio": 0.65,
+  "motion_mean": 24.82,
+  "still_frac": 0.0,
+  "cut_like": 133
+ },
+ "andy_bridge": {
+  "dur": 64.0,
+  "speck_median": 247,
+  "speck_p90": 434,
+  "corner_center_ratio": 0.89,
+  "motion_mean": 22.19,
+  "still_frac": 0.0,
+  "cut_like": 102
+ },
+ "zhanwai_huashu": {
+  "dur": 180.3,
+  "speck_median": 254,
+  "speck_p90": 601,
+  "corner_center_ratio": 0.16,
+  "motion_mean": 1.51,
+  "still_frac": 0.37,
+  "cut_like": 0
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "noir-land",
+  "name": "生产暗黑钠灯",
+  "palette": [
+    "deep navy-black",
+    "sodium amber",
+    "cold concrete"
+  ],
+  "light": "single sodium key + sparse fill",
+  "material": "wet asphalt / metal / fog grain",
+  "caption": "white+ink outline on dark; vermilion sparingly",
+  "visual7_targets": "≥20 worlds; eyes readable; sodium-only chroma",
+  "engine": "stub",
+  "ban_default": "flat grey bed + emissive caption-only + stick figures"
+}

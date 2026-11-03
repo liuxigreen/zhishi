@@ -1,0 +1,97 @@
+{
+  "paper-005-011": {
+    "mid": "f0091.png",
+    "vignette_ratio": 0.2527,
+    "n_particles": 166,
+    "size_px_median": 2.39,
+    "size_px_p90": 6.82,
+    "speed_px_s_src": 9.51,
+    "speed_px_s_1080": 17.83,
+    "mean_rgb": [
+      181.5,
+      180.5,
+      171.7
+    ],
+    "scale": 1.875,
+    "wh": [
+      1024,
+      576
+    ]
+  },
+  "paper-085-091": {
+    "mid": "f0091.png",
+    "vignette_ratio": 0.4372,
+    "n_particles": 143,
+    "size_px_median": 2.52,
+    "size_px_p90": 5.29,
+    "speed_px_s_src": 4.0,
+    "speed_px_s_1080": 7.49,
+    "mean_rgb": [
+      122.9,
+      105.3,
+      82.0
+    ],
+    "scale": 1.875,
+    "wh": [
+      1024,
+      576
+    ]
+  },
+  "paper-119-125": {
+    "mid": "f0091.png",
+    "vignette_ratio": 0.4004,
+    "n_particles": 49,
+    "size_px_median": 4.65,
+    "size_px_p90": 8.44,
+    "speed_px_s_src": 4.21,
+    "speed_px_s_1080": 7.89,
+    "mean_rgb": [
+      195.4,
+      178.4,
+      163.6
+    ],
+    "scale": 1.875,
+    "wh": [
+      1024,
+      576
+    ]
+  },
+  "paper-133-139": {
+    "mid": "f0091.png",
+    "vignette_ratio": 0.6061,
+    "n_particles": 4717,
+    "size_px_median": 2.26,
+    "size_px_p90": 4.22,
+    "speed_px_s_src": 7.45,
+    "speed_px_s_1080": 13.96,
+    "mean_rgb": [
+      90.5,
+      76.1,
+      67.5
+    ],
+    "scale": 1.875,
+    "wh": [
+      1024,
+      576
+    ]
+  },
+  "paper-169-175": {
+    "mid": "f0091.png",
+    "vignette_ratio": 0.2305,
+    "n_particles": 71,
+    "size_px_median": 3.19,
+    "size_px_p90": 6.18,
+    "speed_px_s_src": 4.79,
+    "speed_px_s_1080": 8.98,
+    "mean_rgb": [
+      183.1,
+      164.5,
+      133.0
+    ],
+    "scale": 1.875,
+    "wh": [
+      1024,
+      576
+    ]
+  }
+}

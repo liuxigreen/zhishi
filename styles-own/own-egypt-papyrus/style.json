@@ -1,0 +1,116 @@
+{
+ "id": "own-egypt-papyrus",
+ "num": "O7",
+ "en": "Papyrus Egypt",
+ "cn": "莎草图",
+ "cat": "自有 · 历史/神话横屏埃及壁画",
+ "cat_en": "Own · history/myth explainer, Egyptian tomb painting",
+ "film": "史上第一次罢工",
+ "line": "Flat Egyptian-canon figures on parchment, navy frame bands with a winged sun, a cream two-line caption card; papyrus-unroll transitions.",
+ "line_cn": "羊皮纸上的埃及正典平涂人物，上下藏青饰带+有翼日盘，奶油色两行字幕卡；纸草卷展开转场。",
+ "sources": [
+  "4352"
+ ],
+ "dur": 24.0,
+ "frame_sec": 3.2,
+ "status": "done",
+ "size": "1440x1080",
+ "palette": {
+  "parch": "#E2D1A8",
+  "parchDark": "#B9A887",
+  "navy": "#1C273E",
+  "gold": "#D9A640",
+  "cream": "#F1E6C8",
+  "line": "#2A1A12",
+  "skinM": "#8E3B2A",
+  "skinF": "#D5A458",
+  "linen": "#EFE6D0",
+  "blue": "#2F5C9E",
+  "turq": "#3E9A8C",
+  "red": "#B8392B",
+  "nile": "#2A4F86",
+  "grass": "#839D60",
+  "hiRed": "#A82A1F",
+  "hiBlue": "#24529A",
+  "hiGreen": "#256B42"
+ },
+ "fonts": [
+  "Noto Serif SC 900 (captions, tags)"
+ ],
+ "props": [
+  "sunDisk",
+  "palm",
+  "papyrus",
+  "column",
+  "glyph",
+  "hieroWall",
+  "nile",
+  "chisel",
+  "mallet",
+  "oilLamp",
+  "granary",
+  "grainSack",
+  "basket",
+  "scroll",
+  "reedPen",
+  "palette",
+  "jar",
+  "bread",
+  "pylon",
+  "temple",
+  "tally",
+  "ankh",
+  "starSky",
+  "hills",
+  "wingedSun",
+  "eyeOfHorus"
+ ],
+ "patterns": [
+  "scrollWipe",
+  "captionIn",
+  "poseAt",
+  "walk",
+  "chiselLoop",
+  "countUp",
+  "stampIn",
+  "shout",
+  "grainPour"
+ ],
+ "people": {
+  "kinds": [
+   "man",
+   "worker",
+   "woman",
+   "scribe",
+   "pharaoh",
+   "official",
+   "ra",
+   "hathor"
+  ],
+  "poses": 15
+ },
+ "native_moves": [
+  "墙上刻字",
+  "粮仓见底",
+  "刻痕计日",
+  "纸草卷宣言",
+  "书吏记录"
+ ],
+ "uses": [
+  "Ancient history firsts",
+  "Egyptian/near-east myth",
+  "Economics told as history",
+  "Work/labour stories"
+ ],
+ "bans": [
+  "3D shading on figures",
+  "3/4 faces",
+  "photo textures",
+  "neon/glitter",
+  "English on screen",
+  "more than 2 caption lines",
+  "zooms",
+  "hard cuts"
+ ],
+ "improvement": "Papyrus-unroll transitions + jointed, animated figures (walk, chisel, sit, shout) and props with verbs (wall carves in, granary empties, tally counts, scroll writes itself); source is mostly still boards with slow pans."
+}

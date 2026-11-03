@@ -1,0 +1,8 @@
+@font-face{font-family:'Noto Serif SC';src:url('NotoSerifSC-VF.otf') format('opentype');font-weight:200 900;font-display:block}
+@font-face{font-family:'Noto Sans SC';src:url('NotoSansSC-VF.ttf') format('truetype');font-weight:100 900;font-display:block}
+@font-face{font-family:'Inter Tight';src:url('InterTight-Variable.ttf') format('truetype');font-weight:100 900;font-display:block}
+@font-face{font-family:'Geist Mono';src:url('GeistMono-VF.ttf') format('truetype');font-weight:100 900;font-display:block}
+@font-face{font-family:'Ma Shan Zheng';src:url('MaShanZheng-Regular.ttf') format('truetype');font-weight:400;font-display:block}
+@font-face{font-family:'ZCOOL XiaoWei';src:url('ZCOOLXiaoWei.ttf') format('truetype');font-weight:400;font-display:block}
+/* lookkit alias */
+@font-face{font-family:'MaShanZheng';src:url('MaShanZheng.ttf') format('truetype');font-weight:400;font-display:block}

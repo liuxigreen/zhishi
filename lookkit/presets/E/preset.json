@@ -1,0 +1,14 @@
+{
+  "id": "E",
+  "name": "E · 人际微剧场",
+  "palette": [
+    "skin+cloth local",
+    "one emotion accent"
+  ],
+  "light": "face-readable key; eyes clear",
+  "material": "cloth/skin volume; no stick figures",
+  "caption": "cause+effect same frame",
+  "visual7_targets": "faces two eyes; emotion kit; mid_fill people/props",
+  "engine": "stub",
+  "ban_default": "flat grey bed + emissive caption-only + stick figures"
+}

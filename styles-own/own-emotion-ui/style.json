@@ -1,0 +1,80 @@
+{
+ "id": "own-emotion-ui",
+ "num": "O5",
+ "en": "Emotion UI",
+ "cn": "情绪 UI",
+ "cat": "自有 · 情绪/社交心理 UI",
+ "cat_en": "Own · Attachment / emotion as UI",
+ "film": "You're less noticed than you think",
+ "line": "A deep-navy night room; a warm capsule person under a light with UI drawn on top of life — eyes, gaze lines, brackets, a tension bar, thought clouds; orange is the self, cyan is screens and facts.",
+ "line_cn": "深蓝夜间房间；暖橙胶囊人站在光下，生活上叠一层界面——眼睛、视线虚线、对焦框、紧张条、思绪云；橙=自己，青=屏幕和事实。",
+ "sources": [
+  "nexo",
+  "6571",
+  "6911",
+  "1183 (donor)",
+  "2127 (donor)"
+ ],
+ "dur": 24.0,
+ "frame_sec": 4.5,
+ "status": "done",
+ "palette": {
+  "void": "#080C16",
+  "navy": "#111A2E",
+  "hero": "#F2A866",
+  "orange": "#FF9A3C",
+  "cyan": "#7ABAEF",
+  "crowd": "#7F89A3",
+  "cream": "#EEEAE0",
+  "lamp": "#FFE7B0",
+  "tense": "#E58A7A",
+  "calm": "#5FC4A8",
+  "coral": "#EE7D62",
+  "denim": "#7F9FD8"
+ },
+ "props": [
+  "phone",
+  "chatBubble",
+  "typingDots",
+  "flipClock",
+  "hangingLamp",
+  "windowMoon",
+  "wallClock",
+  "bed",
+  "pingTable",
+  "tensionMeter",
+  "focusBrackets",
+  "eye",
+  "gazeLine",
+  "callout",
+  "thoughtCloud",
+  "statusLine",
+  "statCard",
+  "crystalHeart",
+  "glitchText",
+  "tshirtPrint"
+ ],
+ "native_moves": [
+  "gazeLock",
+  "replayCloud",
+  "twoLamps",
+  "phoneOut"
+ ],
+ "uses": [
+  "Social psychology",
+  "Attachment / anxiety",
+  "Self-focus / rumination",
+  "Belief vs fact experiments"
+ ],
+ "people": [
+  "pill (nexo)",
+  "crowd",
+  "sitter (6571)",
+  "kid (6911, only cast with faces)"
+ ],
+ "improvement": "gazeRelease: the gaze lock played backwards + crowd lit by own phones + meter drop carry the reversal",
+ "created": "2026-11-03",
+ "by": {
+  "name": "Adelaide Milne / Vibe知识大赏"
+ }
+}

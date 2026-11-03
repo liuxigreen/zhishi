@@ -1,0 +1,116 @@
+/** people.js — Bite Red Queen stick / pictogram cast.
+ * Distilled from redqueen runner + stairs figures + 0762 lonely figure.
+ * WHY attractive: clean limb silhouette, ONE glow colour, strong pose verbs;
+ * NO face dots, NO smile arcs. Emotion = lean / look-up / sit / fork-away + prop contact.
+ */
+import { P, glowStroke, glowFill } from './look.js';
+
+/** Stick runner. x,y = feet. s=1 → ~280 px tall.
+ * pose: { lean, liftL, liftR, armSwing, lookUp, sit, glow }
+ * variant: 'runner' | 'stand' | 'sit' | 'look'
+ */
+export function stick(ctx, o = {}) {
+  const s = o.s ?? 1, f = o.facing ?? 1;
+  const lean = o.pose?.lean ?? 0;
+  const liftL = o.pose?.liftL ?? 0;
+  const liftR = o.pose?.liftR ?? 0;
+  const arm = o.pose?.armSwing ?? 0;
+  const lookUp = o.pose?.lookUp ?? 0;
+  const sit = o.pose?.sit ?? 0;
+  const glow = o.pose?.glow ?? (o.glow ?? 0.85);
+  const col = o.color || P.red;
+  const X = (u) => o.x + (u + lean * 22) * s * f;
+  const Y = (v) => o.y + (v + sit * 40) * s;
+
+  ctx.save();
+  ctx.lineJoin = 'round'; ctx.lineCap = 'round';
+
+  // soft ground contact shadow
+  ctx.globalAlpha = 0.25 * glow;
+  ctx.fillStyle = '#000';
+  ctx.beginPath(); ctx.ellipse(o.x, o.y + 4, 28 * s, 6 * s, 0, 0, Math.PI * 2); ctx.fill();
+
+  const drawBody = () => {
+    // legs
+    ctx.beginPath();
+    ctx.moveTo(X(0), Y(-110 + sit * 30));
+    ctx.lineTo(X(-18 - liftL * 10), Y(-55));
+    ctx.lineTo(X(-22 - liftL * 18), Y(0));
+    ctx.moveTo(X(0), Y(-110 + sit * 30));
+    ctx.lineTo(X(16 + liftR * 10), Y(-55));
+    ctx.lineTo(X(24 + liftR * 14), Y(0));
+    // torso
+    ctx.moveTo(X(0), Y(-110 + sit * 30));
+    ctx.lineTo(X(lean * 6), Y(-200));
+    // arms
+    ctx.moveTo(X(lean * 4), Y(-175));
+    ctx.lineTo(X(-28 - arm * 16), Y(-140 + arm * 10));
+    ctx.moveTo(X(lean * 4), Y(-175));
+    ctx.lineTo(X(30 + arm * 14), Y(-145 - arm * 8));
+    // head
+    ctx.moveTo(X(lean * 6), Y(-200));
+    ctx.lineTo(X(lean * 6 + lookUp * 4), Y(-230 - lookUp * 6));
+  };
+
+  // bloom pass
+  glowStroke(ctx, () => { drawBody(); }, { color: col, width: 3.2 * s, bloom: 6, alpha: 0.9 * glow });
+  // head disc
+  glowFill(ctx, () => {
+    ctx.beginPath();
+    ctx.arc(X(lean * 6 + lookUp * 4), Y(-242 - lookUp * 6), 11 * s, 0, Math.PI * 2);
+  }, { color: col, alpha: 0.95 * glow });
+  // solid core limbs (slightly thinner white/red)
+  ctx.globalAlpha = 0.95;
+  ctx.strokeStyle = col; ctx.lineWidth = 2.4 * s;
+  drawBody(); ctx.stroke();
+  ctx.fillStyle = col;
+  ctx.beginPath();
+  ctx.arc(X(lean * 6 + lookUp * 4), Y(-242 - lookUp * 6), 9 * s, 0, Math.PI * 2);
+  ctx.fill();
+
+  // optional hold callback at front hand
+  if (typeof o.hold === 'function') {
+    o.hold(ctx, X(30 + arm * 14), Y(-145 - arm * 8));
+  }
+  ctx.restore();
+}
+
+/** Tiny stick for stairs / crowd (no bloom, cheaper). */
+export function stickTiny(ctx, o = {}) {
+  const s = o.s ?? 0.45, col = o.color || P.white, glow = o.glow ?? 0.7;
+  const X = (u) => o.x + u * s, Y = (v) => o.y + v * s;
+  ctx.save();
+  ctx.strokeStyle = col; ctx.fillStyle = col;
+  ctx.globalAlpha = glow; ctx.lineWidth = 2.2 * s; ctx.lineCap = 'round';
+  ctx.beginPath();
+  ctx.moveTo(X(-10), Y(0)); ctx.lineTo(X(0), Y(-55)); ctx.lineTo(X(12), Y(0));
+  ctx.moveTo(X(0), Y(-55)); ctx.lineTo(X(0), Y(-95));
+  ctx.moveTo(X(-14), Y(-75)); ctx.lineTo(X(14), Y(-75));
+  ctx.stroke();
+  ctx.beginPath(); ctx.arc(X(0), Y(-108), 7 * s, 0, Math.PI * 2); ctx.fill();
+  ctx.restore();
+}
+
+/** Stair crowd: N figures climbing credential stairs. litIndex gets red. */
+export function stairCrowd(ctx, o = {}) {
+  const n = o.n ?? 8, gap = o.gap ?? 70, s = o.s ?? 0.55;
+  const lit = o.lit ?? 2;
+  for (let i = 0; i < n; i++) {
+    const x = o.x + i * gap;
+    const y = o.y - i * (o.rise ?? 28);
+    stickTiny(ctx, {
+      x, y, s,
+      color: i === lit ? P.red : P.white,
+      glow: i === lit ? 1 : 0.55,
+    });
+  }
+}
+
+export const POSES = {
+  sprint: { lean: 0.85, liftL: 0.7, liftR: -0.4, armSwing: 0.8, glow: 1 },
+  lean:   { lean: 0.45, liftL: 0.2, liftR: 0.1, armSwing: 0.3, glow: 0.9 },
+  stand:  { lean: 0, liftL: 0, liftR: 0, armSwing: 0, glow: 0.75 },
+  lookUp: { lean: 0.1, lookUp: 1, armSwing: -0.2, glow: 0.85 },
+  sit:    { sit: 1, lean: -0.1, armSwing: -0.3, glow: 0.6 },
+  fork:   { lean: -0.55, liftL: 0.3, liftR: 0.5, armSwing: -0.4, lookUp: 0.6, glow: 1 },
+};

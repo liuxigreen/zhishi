@@ -1,0 +1,15 @@
+{
+  "id": "chalkboard",
+  "name": "黑板 stub",
+  "palette": [
+    "slate green",
+    "chalk white",
+    "orange accent only"
+  ],
+  "light": "window side light",
+  "material": "chalkboard grain; stroke pressure",
+  "caption": "keywords on board; cream plate subtitles",
+  "visual7_targets": "frontal only; write-wipe-rewrite",
+  "engine": "stub",
+  "ban_default": "flat grey bed + emissive caption-only + stick figures"
+}

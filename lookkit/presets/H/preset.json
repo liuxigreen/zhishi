@@ -1,0 +1,15 @@
+{
+  "id": "H",
+  "name": "H · 历史战阵",
+  "palette": [
+    "terrain ink",
+    "warm stone",
+    "ember accent"
+  ],
+  "light": "directional sun + torch rim",
+  "material": "relief / stone / paper map grain",
+  "caption": "DualMark on path props; ≥4.5:1",
+  "visual7_targets": "mid_fill=full; layers≥3; mass_diag high; soft path",
+  "engine": "stub",
+  "ban_default": "flat grey bed + emissive caption-only + stick figures"
+}

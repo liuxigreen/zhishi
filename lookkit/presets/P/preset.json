@@ -1,0 +1,15 @@
+{
+  "id": "P",
+  "name": "P · 印刷长镜",
+  "palette": [
+    "ink+paper",
+    "one red hero",
+    "optional warm light"
+  ],
+  "light": "paper white as light; scarce chroma",
+  "material": "halftone / woodcut / chalk / wash",
+  "caption": "keywords on medium; plate ok",
+  "visual7_targets": "≥3 depth layers; soft long-take; hard cuts rare",
+  "engine": "stub",
+  "ban_default": "flat grey bed + emissive caption-only + stick figures"
+}

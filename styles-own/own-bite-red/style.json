@@ -1,0 +1,19 @@
+{
+ "slug": "own-bite-red",
+ "num": "O4",
+ "en": "Bite Red Queen",
+ "cn": "比特红皇后",
+ "category_en": "Own · Relative adaptation / arms race on a black stage",
+ "category_cn": "自有 · 黑底上的相对适应与军备竞赛",
+ "film": "The gap stays locked",
+ "line": "Near-black stage, semantic red for effort-that-goes-nowhere; stick runners and race gadgets; white serif tells the rule, red marks the trap.",
+ "line_cn": "近黑舞台、语义红标「拼尽全力仍原地」；象形跑步人与竞赛器械；白字讲规则，红字钉陷阱。",
+ "uses": ["Relative adaptation", "Arms-race metaphors", "Credential inflation", "Entropy / work vs decay (0762 merge)"],
+ "frame_sec": 4.5,
+ "dur": 24.0,
+ "based_on": "lemo canvas2d page contract",
+ "borrows": ["bite-xinyu redqueen runner+HUD+oval+stairs", "0762 entropy void/data-body + work-spark"],
+ "library_version": "lemo-opuscar (local)",
+ "created": "2026-11-03",
+ "by": {"name": "Adelaide Milne / Vibe知识大赏"}
+}

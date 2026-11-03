@@ -1,0 +1,16 @@
+{
+  "id": "circuit-board",
+  "name": "电路板 stub",
+  "palette": [
+    "FR-4 green",
+    "ENIG gold",
+    "amber current",
+    "cyan second flow"
+  ],
+  "light": "additive current glow",
+  "material": "copper pour + silkscreen",
+  "caption": "silkscreen keywords only",
+  "visual7_targets": "top-down only; light explains",
+  "engine": "stub",
+  "ban_default": "flat grey bed + emissive caption-only + stick figures"
+}
